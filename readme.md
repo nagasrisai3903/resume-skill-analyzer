@@ -229,16 +229,38 @@ Suggested Roadmap:
 
 ## 📸 Screenshots
 
-Screenshots will be added here after final UI testing.
+### Analyzer Home Page
+Modern black theme UI with resume upload, job description input, and sample job description buttons.
 
-Recommended screenshots:
+![Analyzer Home Page](assets/screenshots/01-home-page.png)
 
-```text
-1. Analyzer Home Page
-2. Resume Match Result
-3. Missing Skills and Roadmap
-4. Analysis History Dashboard
-5. Download Report Feature
+---
+
+### Resume Match Result
+Displays match score, matched skills, missing skills, detected resume skills, required job skills, and roadmap.
+
+![Resume Match Result](assets/screenshots/02-analysis-result.png)
+
+---
+
+### Analysis History Dashboard
+Shows total scans, average score, best score, and previous resume analysis reports.
+
+![History Dashboard](assets/screenshots/03-history-dashboard.png)
+
+---
+
+### Download and Copy Report
+Users can download the analysis report or copy it to clipboard.
+
+![Download Report](assets/screenshots/04-download-report.png)
+
+---
+
+### Django REST API History
+Backend API response showing stored resume analysis history.
+
+![API History](assets/screenshots/05-api-history.png)
 ```
 
 ---
